@@ -10,6 +10,28 @@
 
 [Express](http://expressjs.com) strategy for [Steeplejack](http://steeplejack.info)
 
+# Usage
+
+In your main [Steeplejack](http://steeplejack.info) `run` method, you will need to configure your Express strategy like
+this...
+
+```
+import {Express} from "steeplejack-express";
+import {Server} from "steeplejack/lib/server";
+
+app.run($config => {
+    const server = new Server($config.server, new Express());
+    
+    return server;
+});
+```
+
+You can also import `expressLib` from the package, which is the result of `require("express");`.
+
+This is the minimal config. The `Express` constructor accepts an optional object that defines the `ssl`. This is to be
+used if you want to configure your server to publish over HTTPS.  This object is the options that can be set on the
+[HTTPS options]https://nodejs.org/api/https.html#https_https_createserver_options_requestlistener).
+
 # License
 
 MIT License
