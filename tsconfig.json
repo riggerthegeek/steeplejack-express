@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "classic",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "coverage",
+    "node_modules",
+    "test",
+    "tmp",
+    "typings"
+  ],
+  "files": [
+    "./typings/main.d.ts"
+  ]
+}
