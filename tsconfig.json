@@ -16,8 +16,5 @@
     "test",
     "tmp",
     "typings"
-  ],
-  "files": [
-    "./typings/main.d.ts"
   ]
 }
