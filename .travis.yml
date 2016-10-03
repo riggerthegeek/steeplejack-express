@@ -16,8 +16,8 @@ deploy:
   provider: npm
   email: simon@simonemms.com
   api_key:
-    secure: RHyokQCoy8y2zg8Wxhd1oYG24SioH2gm21k12N9Evj2W/pGmsgX054Cv+i6bAh4fCBn3mZZ6oTEtHrVcERNVkSwVWck+3/vOg4960kYF0E0hrDpxd7KXp5RrzKzyRkk9kMm+yxlrwyDRJoVD//1yph1JPZnBgSoVfHkoKj0zxRs=
+    secure: ZvlyiQz46osG3Zwjhwmbl4bJCHd2o8LalFI5I8i3ar2UQqRnhTnV5fqnooRyQ2NysbQMZkW6UlYZU6WZZMyEjyG/z5x9hB+RcBwwGq2xxdSPoG55DktoXRlbjGQFzhiHtB0wTKQJiQk7wQt/7EjmEe1cNv9OJyvBCN8i8ROhU8Sg/uEDdh9Iit8xG6rCEXiW7y2e/Uq2KnT8B2gZuAdR3YVPeM2DN5j8gYGTzJfXmS1KJTNMV02eqA0SkZ6vQ6BkQVO9fK1AjyQB/fi2ddo0beczaWwTTRO8TSUTAaRNNvw5V0oitBdWrhNwL0F87TGcOAzoCU3MQ1QY99Sa6Db7oLVsEMs1le8vVj1XrVdYc53a/UVdI/O5ks/ayASABGQPekQt2aXMzhVYCD8//DqAUgTalDH+m18S2t/6/Cz4unsEzP80O2BEl8AwP1ajfpWeT7usHbr1BLxWfHF7l2bvsaCEbvDDbxgSid4B6j5o7hv8PumljiVotdFWagtd9XdfKswp82hZrrpBrAusJGX0kkIA26G970APVzYBySmpjdEMDH8OdDCWA8YzvSKW4zYMi2jjSTG70felJGMIGDP6XTyC94mgsc7aUhjAz3Yjfubjw8l72VWf9mBPCs7IqyiYtQvFhYPuXDyeugiRVbUM7tfnsUnflvO8FshagbQMsJs=
   on:
     all_branches: true
     tags: true
-    repo: riggerthegeek/steeplejack-restify
+    repo: riggerthegeek/steeplejack-express
