@@ -15,7 +15,7 @@
 In your main [Steeplejack](http://steeplejack.info) `run` method, you will need to configure your Express strategy like
 this...
 
-```
+```javascript
 import {Express} from "steeplejack-express";
 import {Server} from "steeplejack/lib/server";
 
