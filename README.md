@@ -20,7 +20,9 @@ import {Express} from "steeplejack-express";
 import {Server} from "steeplejack/lib/server";
 
 app.run($config => {
-    const server = new Server($config.server, new Express());
+    const server = new Server($config.server, new Express({
+        ssl: {}
+    }));
     
     return server;
 });
