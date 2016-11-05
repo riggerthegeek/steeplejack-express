@@ -159,8 +159,8 @@ export class Express extends EventEmitter implements IServerStrategy {
 
                 /* Do the output */
                 const format = {
-                    json: () => response.json(output.getRenderData()),
-                    html: () => response.render(output.getRenderTemplate(), output.getRenderData())
+                    html: () => response.render(output.getRenderTemplate(), output.getRenderData()),
+                    json: () => response.json(output.getRenderData())
                 };
 
                 return response.format(format);

@@ -319,6 +319,12 @@ describe("index test", function () {
                         "html"
                     ]);
 
+                    /* Ensure HTML is first so it defaults output to HTML if not accepts sent */
+                    expect(Object.keys(obj)).to.be.eql([
+                        "html",
+                        "json"
+                    ]);
+
                     expect(obj.json()).to.be.equal("jsonOutput");
                     expect(obj.html()).to.be.equal("renderOutput");
 
